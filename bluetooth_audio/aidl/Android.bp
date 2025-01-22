@@ -2,6 +2,7 @@ aidl_interface {
     name: "vendor.qti.hardware.bluetooth.audio",
     host_supported: true,
     vendor_available: true,
+    owner: "qcom/opensource/interfaces",
     srcs: [
         "vendor/qti//hardware/bluetooth/audio/*.aidl",
     ],

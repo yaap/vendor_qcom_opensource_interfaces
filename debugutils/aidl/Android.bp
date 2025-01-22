@@ -1,6 +1,7 @@
 aidl_interface {
     name: "vendor.qti.hardware.debugutils_aidl",
     vendor_available: true,
+    owner: "qcom/opensource/interfaces",
     srcs: ["vendor/qti/hardware/debugutils/*.aidl"],
     stability: "vintf",
     backend: {

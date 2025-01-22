@@ -5,6 +5,7 @@ aidl_interface {
     system_ext_specific: true,
     srcs: ["vendor/qti/hardware/servicetrackeraidl/*.aidl"],
     stability: "vintf",
+    owner: "qcom/opensource/interfaces",
     backend: {
         cpp: {
             enabled: false,
